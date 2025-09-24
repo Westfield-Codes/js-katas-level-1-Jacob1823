@@ -1,7 +1,10 @@
 /* Var Alert Prompt */
 // make a variable for a pet type, prompt user for it 
+var petType = prompt("what pet type?");
 // make a variable for a pet name, prompt user for it
+var petName = prompt("what pet name?");
 // alert "You have a pet type named pet name 
+alert("You have a " + petType + " named " + petName );
 
 /* Var Alert Prompt Conditionals */
 // make a variable for pet type, prompt user for it 
