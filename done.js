@@ -77,3 +77,22 @@ if (petType == "dog") alert("I like dogs");
 else if (petType == "cat") alert("I am allergic to cats");
 // If it is not a dog or a cat, say "what an interesting pet!"
 else alert("what an interesting pet!");
+
+
+
+/* Guess */
+
+function main (){
+     alert("Guess my number!");
+    let answer = Math.floor(Math.random()*100)+1;
+     alert("Answer = "+answer);
+    let guess = 0;
+   while (guess != answer) {
+
+         guess = prompt("guess");
+        
+        if (guess == answer) alert("You win!");
+        else if (guess > answer)alert("Too high!");
+        else alert("Too low!");
+   }
+}
